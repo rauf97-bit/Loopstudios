@@ -1,0 +1,101 @@
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Poppins;
+  overflow-x: hidden;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+header {
+  background-image: url("images/desktop/image-hero.jpg");
+}
+.container {
+  max-width: 90% !important;
+}
+.card {
+  border-radius: 0 !important;
+  border: 2px solid #fff !important;
+  background: transparent !important;
+}
+
+.card-title {
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 4.5rem;
+}
+.xtive {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  background: #fff;
+  /* height: 50%; */
+}
+.vr-text {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.product-caption {
+  position: absolute;
+  bottom: 0;
+  font-weight: 200;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+footer {
+  background: hsl(0, 0%, 0%);
+}
+@media (max-width: 992px) {
+  .vr-text {
+    font-size: 2.5rem;
+  }
+  .desktop img {
+    width: 90%;
+    margin: auto;
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 3rem;
+  }
+  .xtive {
+    position: relative;
+    margin: auto;
+    bottom: inherit;
+    left: inherit;
+  }
+
+  .product-caption {
+    margin: auto;
+    left: 30%;
+  }
+  .desktop img {
+    height: 600px;
+  }
+}
+@media (max-width: 468px) {
+  .container {
+    max-width: 100% !important;
+  }
+  .card-title {
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+  }
+  .product-caption {
+    left: auto;
+  }
+}
